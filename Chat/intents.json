@@ -1,0 +1,323 @@
+{"intents": [
+    
+    {
+        "tag": "greetings",
+        "patterns": [
+            "Hello",
+            "Hi",
+            "Hey",
+            "Greetings",
+            "Good morning",
+            "Good afternoon",
+            "Good evening"
+        ],
+        "responses": [
+            "Hello! I'm here to support. How can I assist you today?",
+            "Hi there! How can I help you with your today?",
+            "Hey! I'm here to listen and support you. What can I do for you today?"
+            
+        ]
+    },
+    {
+        "tag": "deepfake_identification",
+        "patterns": ["What is deepfake technology?", "How does deepfake detection work?", "Can you identify a deepfake?", "What are signs of a deepfake?", "Is deepfake detection reliable?", "How can I tell if a video is deepfake?", "What tools are used to detect deepfakes?", "Are deepfakes illegal?", "How can deepfakes impact society?", "What are common uses of deepfake technology?"],
+        "responses": ["Deepfake technology uses artificial intelligence to create realistic-looking fake videos or audio. Detection involves analyzing inconsistencies in visuals and audio. Signs of a deepfake can include unnatural movements, mismatched lip-syncing, or blurred edges. While detection tools are improving, no method is foolproof. Deepfakes can be used for entertainment or misinformation, raising ethical and legal concerns."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_signs",
+        "patterns": ["What are signs that a video is a deepfake?", "How to spot a deepfake?", "Common indicators of deepfakes", "Visual clues for identifying deepfakes", "What should I look for in a suspicious video?"],
+        "responses": ["Look for unnatural facial movements, inconsistent lighting, audio-video mismatch, and blurred edges around faces. Check for unusual expressions or lack of eye contact, which can indicate a deepfake."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_tools",
+        "patterns": ["What tools can detect deepfakes?", "Best software for deepfake detection", "How effective are deepfake detection tools?", "Are there apps for identifying deepfakes?", "Can AI detect deepfakes?"],
+        "responses": ["Several tools are available for deepfake detection, including DeepTrace, Sensity AI, and Amber Video. These tools utilize machine learning algorithms to analyze videos for inconsistencies. While they can be effective, their accuracy varies based on the sophistication of the deepfake."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_impact",
+        "patterns": ["How do deepfakes affect society?", "What are the dangers of deepfakes?", "Can deepfakes harm reputations?", "Deepfakes and misinformation", "How are deepfakes used maliciously?"],
+        "responses": ["Deepfakes can harm reputations, spread misinformation, and undermine trust in media. They are often used in scams, revenge porn, or political manipulation, creating significant societal concerns."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_legal_aspects",
+        "patterns": ["Are deepfakes legal?", "What are the laws regarding deepfakes?", "Can you sue for deepfake misuse?", "Legal consequences of creating deepfakes", "Deepfake regulations"],
+        "responses": ["The legality of deepfakes varies by jurisdiction. While creating deepfakes for parody may be legal, malicious use, such as defamation or fraud, can lead to legal consequences."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_reliability",
+        "patterns": ["Is deepfake detection always reliable?", "Can deepfakes be easily detected?", "How accurate is deepfake detection?", "What are the limitations of deepfake detection?", "Can deepfakes fool detection tools?"],
+        "responses": ["Deepfake detection is improving, but it is not always reliable. Sophisticated deepfakes can sometimes bypass detection tools. Continuous advancements in AI make detection a constantly evolving challenge."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_use_cases",
+        "patterns": ["What are common uses of deepfake technology?", "How is deepfake technology used in entertainment?", "Are there positive applications for deepfakes?", "Deepfakes in film and media", "Can deepfakes be used for educational purposes?"],
+        "responses": ["Deepfake technology is used in entertainment for visual effects and dubbing, as well as in education for creating interactive learning experiences. However, its potential for misuse raises ethical questions."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_future",
+        "patterns": ["What does the future hold for deepfake technology?", "Will deepfakes become more common?", "How might deepfakes evolve?", "Future trends in deepfake detection", "Predictions for deepfake technology"],
+        "responses": ["The future of deepfake technology is likely to see more advanced AI-generated content. Detection methods will also evolve, requiring constant updates to stay ahead of new techniques."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_education",
+        "patterns": ["How can I educate myself about deepfakes?", "Resources for learning about deepfake technology", "Where to find information on deepfake detection", "Are there courses on deepfake technology?", "Books about deepfake implications"],
+        "responses": ["You can educate yourself about deepfakes through online courses, articles, and documentaries. Resources from technology and media organizations can provide insights into detection and ethical considerations."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_media_literacy",
+        "patterns": ["How to improve media literacy regarding deepfakes?", "What can I do to spot deepfakes?", "Tips for recognizing manipulated media", "Media literacy in the age of deepfakes", "How can I teach others about deepfakes?"],
+        "responses": ["Improving media literacy involves staying informed about deepfake technology, questioning the authenticity of videos, and learning to verify sources. Educating others through discussions and resources can help raise awareness."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_research",
+        "patterns": ["What research is being done on deepfakes?", "Recent studies on deepfake technology", "How is deepfake detection evolving?", "Current trends in deepfake research", "What are the challenges in deepfake research?"],
+        "responses": ["Research on deepfakes focuses on improving detection algorithms, understanding their social impact, and developing ethical guidelines. Challenges include staying ahead of evolving technology and addressing potential misuse."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_digital_forensics",
+        "patterns": ["How does digital forensics deal with deepfakes?", "What role do forensic experts play in identifying deepfakes?", "Can digital forensics help detect deepfakes?", "Techniques used in deepfake forensics", "Forensic analysis of deepfake content"],
+        "responses": ["Digital forensics involves analyzing video files for metadata inconsistencies and employing specialized software to detect signs of manipulation. Forensic experts use various techniques to establish the authenticity of digital content."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_benefits",
+        "patterns": ["What are the benefits of deepfake technology?", "Can deepfakes be used positively?", "Positive applications of deepfakes", "Are there advantages to deepfake creation?", "Benefits of using deepfakes in media"],
+        "responses": ["Deepfakes can enhance entertainment through realistic effects, improve language dubbing in films, and be used for training in fields like medicine or emergency response, offering immersive learning experiences."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_ethical_concerns",
+        "patterns": ["What are the ethical concerns surrounding deepfakes?", "Are deepfakes ethical?", "Ethical implications of deepfake technology", "Debate on deepfake morality", "How do deepfakes challenge ethics?"],
+        "responses": ["Deepfakes raise ethical concerns regarding consent, misinformation, and potential harm. They challenge the authenticity of visual media, making it difficult to discern truth from manipulation."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_media_regulation",
+        "patterns": ["How is the media regulating deepfakes?", "What regulations exist for deepfake technology?", "Government policies on deepfakes", "Media ethics and deepfakes", "Are there laws for deepfake misuse?"],
+        "responses": ["Media regulation of deepfakes is evolving, with some governments proposing laws to address malicious use, while industry bodies discuss ethical guidelines. Regulation aims to balance innovation with protection against harm."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_video_examples",
+        "patterns": ["What are some famous deepfake examples?", "Notable deepfake videos", "Examples of deepfakes in the media", "Famous deepfake incidents", "Can you give examples of deepfakes?"],
+        "responses": ["Famous deepfake examples include videos of celebrities in humorous contexts or political figures delivering altered messages. Notable incidents include manipulated videos during election campaigns that spread misinformation."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_technology_history",
+        "patterns": ["What is the history of deepfake technology?", "How did deepfakes originate?", "Development timeline of deepfake technology", "Evolution of deepfake methods", "Milestones in deepfake technology"],
+        "responses": ["Deepfake technology emerged around 2017 with the rise of deep learning. Initially used for entertainment, it quickly gained attention for its potential for misuse, prompting a surge in detection research and public awareness."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_impact_on_journalism",
+        "patterns": ["How do deepfakes affect journalism?", "Impact of deepfake technology on news", "Can deepfakes undermine trust in journalism?", "What challenges do journalists face with deepfakes?", "How to combat deepfakes in reporting?"],
+        "responses": ["Deepfakes can undermine trust in journalism by making it difficult to verify the authenticity of video evidence. Journalists face challenges in discerning real from manipulated content, necessitating improved verification methods."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_future",
+        "patterns": ["What does the future of deepfake detection look like?", "How will detection methods evolve?", "Advancements in deepfake detection technology", "Future trends in identifying deepfakes", "Can AI improve deepfake detection?"],
+        "responses": ["The future of deepfake detection is likely to involve advanced AI and machine learning techniques, allowing for real-time analysis and improved accuracy. Continuous innovation will be necessary to keep pace with deepfake creation advancements."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_public_perception",
+        "patterns": ["How does the public perceive deepfakes?", "What are common misconceptions about deepfakes?", "Public attitudes towards deepfake technology", "Do people trust deepfake content?", "How is awareness of deepfakes increasing?"],
+        "responses": ["Public perception of deepfakes is mixed, with some viewing them as entertainment while others fear their potential for misinformation. Awareness campaigns are increasing understanding of deepfake risks and encouraging critical viewing skills."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_speech_synthesis",
+        "patterns": ["What is deepfake speech synthesis?", "How does speech synthesis relate to deepfakes?", "Can deepfakes create realistic audio?", "Examples of deepfake audio technology", "Is deepfake audio a concern?"],
+        "responses": ["Deepfake speech synthesis involves using AI to create realistic audio that mimics a person's voice. This technology can produce convincing audio clips, raising concerns about misinformation and identity theft."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_tools",
+        "patterns": ["What tools are available for detecting deepfakes?", "Best software for deepfake detection", "How to identify deepfake videos?", "Detection technologies for deepfakes", "Are there apps for detecting deepfakes?"],
+        "responses": ["Several tools for detecting deepfakes include Deepware Scanner, Sensity AI, and Amber Video. These tools analyze visual and audio inconsistencies to identify manipulated content."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_industry_impact",
+        "patterns": ["How are industries affected by deepfakes?", "Impact of deepfake technology on business", "Are deepfakes disrupting industries?", "Industry response to deepfake challenges", "How do companies address deepfake threats?"],
+        "responses": ["Deepfakes impact various industries, including entertainment and security, raising concerns about brand integrity and misinformation. Companies are developing policies and technologies to mitigate risks and ensure authenticity."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_social_media",
+        "patterns": ["How do deepfakes affect social media?", "Impact of deepfake content on platforms", "Can deepfakes go viral on social media?", "What are social media's challenges with deepfakes?", "How do platforms handle deepfakes?"],
+        "responses": ["Deepfakes can easily spread on social media, leading to misinformation and trust issues. Platforms are implementing AI detection tools and community guidelines to combat harmful deepfake content."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_protection_measures",
+        "patterns": ["What measures can be taken to protect against deepfakes?", "How to safeguard personal images from deepfakes?", "Can I protect my identity from deepfake technology?", "What precautions against deepfakes exist?", "Protecting yourself from deepfake misuse"],
+        "responses": ["Protecting against deepfakes includes being cautious about sharing personal media online, using privacy settings, and advocating for awareness and education on digital media literacy to recognize manipulated content."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_case_studies",
+        "patterns": ["Are there case studies on deepfake misuse?", "Examples of deepfake incidents in real life", "What can we learn from deepfake case studies?", "Case studies on deepfake technology", "Notable deepfake misuse examples"],
+        "responses": ["Notable case studies include the use of deepfakes in political campaigns to spread misinformation and instances of celebrity deepfakes used in non-consensual pornography, highlighting ethical and legal concerns."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_technology_education",
+        "patterns": ["How can I learn more about deepfake technology?", "Resources for understanding deepfakes", "Educational materials on deepfake detection", "Where to study deepfake technology?", "Courses on deepfake ethics and technology"],
+        "responses": ["Educational resources on deepfake technology include online courses, webinars, and academic papers. Organizations and universities often provide materials focusing on ethics, detection techniques, and the impact of deepfakes."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_and_artificial_intelligence",
+        "patterns": ["How is AI used in deepfake technology?", "Role of artificial intelligence in creating deepfakes", "AI techniques for deepfake generation", "What AI models are used for deepfakes?", "Can AI improve deepfake detection?"],
+        "responses": ["AI techniques, particularly generative adversarial networks (GANs), are central to creating deepfakes. GANs consist of two neural networks competing against each other to produce realistic images and videos."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_prevention_technology",
+        "patterns": ["What technologies help prevent deepfakes?", "Innovations in deepfake prevention", "How to combat deepfake creation?", "Technological solutions for deepfake issues", "Prevention methods against deepfake manipulation"],
+        "responses": ["Technological solutions include watermarking, blockchain for media authenticity, and AI-based detection tools that analyze video content for anomalies. Continuous development is essential for effective prevention."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_legal_implications",
+        "patterns": ["What are the legal implications of deepfakes?", "Laws regarding deepfake creation and use", "Legal challenges posed by deepfakes", "How do deepfakes intersect with the law?", "Regulatory frameworks for deepfakes"],
+        "responses": ["Legal implications of deepfakes include issues of defamation, copyright infringement, and privacy violations. As technology evolves, lawmakers are working to establish regulations that address these challenges."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_authentication",
+        "patterns": ["How can deepfake technology affect authentication?", "Impact of deepfakes on identity verification", "Can deepfakes compromise security systems?", "Deepfake threats to biometric authentication", "Are authentication methods safe from deepfakes?"],
+        "responses": ["Deepfake technology poses significant risks to authentication processes, especially biometric systems. Deepfakes can create realistic replicas of faces, potentially bypassing security measures designed to verify identity."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_research",
+        "patterns": ["What are current research trends in deepfake technology?", "Latest studies on deepfake detection", "How is deepfake technology being researched?", "Trends in deepfake AI development", "Research challenges in deepfake technology"],
+        "responses": ["Current research trends in deepfake technology focus on improving detection algorithms, understanding societal impacts, and developing ethical frameworks. Researchers are also exploring ways to enhance transparency and accountability in AI-generated media."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_ethics",
+        "patterns": ["What are the ethical concerns regarding deepfakes?", "Ethical implications of creating deepfake content", "How do deepfakes raise ethical questions?", "Debating the ethics of deepfake technology", "Ethical guidelines for deepfake creators"],
+        "responses": ["Ethical concerns regarding deepfakes include consent, privacy violations, and the potential for misinformation. Discussions around responsible usage, transparency, and the necessity of consent are critical in addressing these ethical dilemmas."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_social_implications",
+        "patterns": ["What are the social implications of deepfakes?", "How do deepfakes impact society?", "Effects of deepfakes on public perception", "Social consequences of deepfake technology", "Can deepfakes influence social behavior?"],
+        "responses": ["Deepfakes can significantly impact society by influencing public opinion, eroding trust in media, and perpetuating misinformation. Their potential to manipulate perceptions poses challenges for social cohesion and democratic processes."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_misinformation",
+        "patterns": ["How do deepfakes contribute to misinformation?", "Examples of misinformation spread through deepfakes", "Deepfakes and fake news", "Combating misinformation from deepfake videos", "Impact of deepfakes on truthful media"],
+        "responses": ["Deepfakes contribute to misinformation by creating realistic but false representations, making it difficult to discern truth from fiction. This can fuel fake news narratives, complicating the media landscape and trust in information sources."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_technology_limitations",
+        "patterns": ["What are the limitations of deepfake technology?", "Challenges faced by deepfake creators", "Is deepfake technology foolproof?", "Limitations in deepfake applications", "Technical constraints of deepfake generation"],
+        "responses": ["Limitations of deepfake technology include the need for extensive data and processing power, potential detection by trained algorithms, and difficulties in creating high-quality fakes for real-time applications. These factors can hinder its effectiveness."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_community_responses",
+        "patterns": ["How is the community responding to deepfake challenges?", "Community initiatives against deepfakes", "What are organizations doing about deepfakes?", "Grassroots responses to deepfake technology", "Community awareness programs for deepfakes"],
+        "responses": ["Communities are responding to deepfake challenges through awareness campaigns, educational workshops, and collaborations with tech organizations. Initiatives focus on educating the public about recognizing deepfakes and understanding their implications."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_future_trends",
+        "patterns": ["What are the future trends for deepfake technology?", "How will deepfakes evolve in the future?", "Predictions for deepfake applications", "Future challenges in deepfake technology", "Will deepfakes improve or worsen?"],
+        "responses": ["Future trends for deepfake technology may include advancements in AI algorithms for better detection and creation. However, as technology evolves, ethical and legal challenges will need to be addressed to mitigate potential misuse."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_fraud",
+        "patterns": ["How can deepfakes be used in fraud?", "Examples of deepfake fraud cases", "What are the risks of deepfake fraud?", "Preventing fraud involving deepfakes", "Deepfake technology and financial scams"],
+        "responses": ["Deepfakes can be used in fraud by impersonating individuals in video calls or creating fake identity documents. This poses risks for financial scams and identity theft, highlighting the need for enhanced verification measures."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_technology_legislation",
+        "patterns": ["What legislation exists regarding deepfakes?", "Laws aimed at regulating deepfake technology", "How is deepfake content being legislated?", "Legal frameworks for deepfake creators", "Are there laws against harmful deepfakes?"],
+        "responses": ["Legislation regarding deepfakes varies by country but is increasingly focused on preventing misuse. Some regions are implementing laws to address non-consensual deepfakes, identity theft, and misinformation, aiming to protect individuals and society."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_tools",
+        "patterns": ["What tools are available for deepfake detection?", "Best software for detecting deepfakes", "How to identify deepfake videos", "Deepfake detection technologies", "Are there apps for deepfake detection?"],
+        "responses": ["Various tools and software for deepfake detection are available, including Deepware Scanner, Sensity AI, and Amber Video. These tools utilize AI and machine learning algorithms to analyze videos for signs of manipulation."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_legal_implications",
+        "patterns": ["What are the legal implications of creating deepfakes?", "Can you get sued for making a deepfake?", "Legal risks associated with deepfake content", "Deepfake laws and consequences", "Are there penalties for deepfake misuse?"],
+        "responses": ["Creating deepfakes can have legal implications, especially if used for malicious purposes. Potential legal risks include lawsuits for defamation, invasion of privacy, and violations of copyright, depending on the context of the deepfake."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_in_entertainment",
+        "patterns": ["How are deepfakes used in the entertainment industry?", "Examples of deepfakes in movies", "Are deepfakes changing film production?", "Impact of deepfakes on entertainment", "Deepfake technology and digital actors"],
+        "responses": ["Deepfakes are used in the entertainment industry for various purposes, such as creating realistic CGI characters, de-aging actors, or bringing deceased performers back to the screen. This technology can enhance storytelling but raises ethical questions."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_detection_challenges",
+        "patterns": ["What challenges exist in deepfake detection?", "Difficulties in identifying deepfakes", "Why is deepfake detection hard?", "Challenges faced by detection algorithms", "Can deepfakes always be detected?"],
+        "responses": ["Challenges in deepfake detection include the rapid advancement of generation techniques, the need for extensive datasets for training detection models, and the ability of deepfakes to mimic real human expressions convincingly, making them difficult to identify."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_prevention_methods",
+        "patterns": ["How can we prevent deepfake misuse?", "Methods to combat deepfake technology", "Preventing the spread of deepfakes", "Strategies to mitigate deepfake risks", "What can individuals do against deepfakes?"],
+        "responses": ["Preventing deepfake misuse involves raising awareness, implementing stronger verification methods, and advocating for legislative measures. Individuals can verify sources, educate others about deepfakes, and report suspicious content."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_impact_on_journalism",
+        "patterns": ["How do deepfakes affect journalism?", "Impact of deepfakes on news media", "Can deepfakes be used in journalism?", "Challenges for journalists with deepfake technology", "Deepfakes and news credibility"],
+        "responses": ["Deepfakes can significantly impact journalism by undermining trust in news media and complicating fact-checking efforts. Journalists must adapt to verify content accurately and combat misinformation while maintaining credibility."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_security_measures",
+        "patterns": ["What security measures can combat deepfakes?", "Protecting against deepfake threats", "How to enhance security against deepfakes", "Security solutions for deepfake detection", "Measures to secure systems from deepfakes"],
+        "responses": ["Security measures against deepfakes include implementing biometric verification systems, developing advanced detection algorithms, and conducting regular training on recognizing deepfake content for personnel in sensitive roles."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_tutorials",
+        "patterns": ["Are there tutorials for creating deepfakes?", "How to learn deepfake creation", "Guides on making deepfakes", "Can I find deepfake tutorials online?", "Learning resources for deepfake technology"],
+        "responses": ["Numerous online tutorials and resources are available for learning deepfake creation, including video guides on platforms like YouTube, courses on sites like Udemy, and community forums discussing techniques and software."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_impact_on_relationships",
+        "patterns": ["How can deepfakes affect personal relationships?", "Impact of deepfakes on trust in relationships", "Deepfakes and interpersonal dynamics", "Are deepfakes harmful to relationships?", "How do deepfakes influence personal connections?"],
+        "responses": ["Deepfakes can harm personal relationships by eroding trust, especially if used to manipulate or misrepresent individuals. They can create misunderstandings and conflict, complicating interpersonal dynamics and communication."],
+        "context_set": ""
+    },
+    {
+        "tag": "deepfake_use_in_politics",
+        "patterns": ["How are deepfakes used in politics?", "Impact of deepfakes on political campaigns", "Deepfakes and political misinformation", "Can deepfakes influence elections?", "Political consequences of deepfake technology"],
+        "responses": ["Deepfakes are used in politics to spread misinformation, influence public opinion, and manipulate election campaigns. Their potential to distort reality poses significant risks to democratic processes and informed decision-making."],
+        "context_set": ""
+    }
+
+    ]
+}
